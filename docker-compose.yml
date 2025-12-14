@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # R сервис для анализа данных
+  r-analysis:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sds301-r-analysis
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+      - ./airbnb_regression_analysis.R:/app/airbnb_regression_analysis.R
+    working_dir: /app
+    # Для интерактивной работы можно раскомментировать:
+    # stdin_open: true
+    # tty: true
+    # command: R
+
+  # Python сервис (для будущего использования)
+  python-service:
+    build:
+      context: .
+      dockerfile: Dockerfile.python
+    container_name: sds301-python
+    volumes:
+      - ./data:/app/data
+      - ./results:/app/results
+      - ./python:/app/python
+    working_dir: /app
+    profiles:
+      - python
+    # Раскомментировать когда будет готов Python код:
+    # command: python python/main.py
+
+  # Next.js сервис (для будущего использования)
+  nextjs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.nextjs
+    container_name: sds301-nextjs
+    volumes:
+      - ./web:/app/web
+      - ./results:/app/public/results
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    profiles:
+      - web
+    environment:
+      - NODE_ENV=development
+    # Раскомментировать когда будет готов Next.js проект:
+    # command: npm run dev
+

@@ -42,6 +42,8 @@ https://insideairbnb.com/get-the-data/
 
 ## Запуск
 
+### Вариант 1: Локально (без Docker)
+
 1. Установите необходимые R пакеты:
 ```r
 install.packages(c('readr', 'dplyr', 'ggplot2', 'corrplot', 'car', 'MASS', 'broom', 'gridExtra'))
@@ -51,6 +53,30 @@ install.packages(c('readr', 'dplyr', 'ggplot2', 'corrplot', 'car', 'MASS', 'broo
 ```r
 source("airbnb_regression_analysis.R")
 ```
+
+### Вариант 2: С Docker (рекомендуется для воспроизводимости)
+
+1. Убедитесь, что Docker установлен:
+```bash
+docker --version
+```
+
+2. Запустите анализ в контейнере:
+```bash
+docker-compose up r-analysis
+```
+
+Или соберите и запустите вручную:
+```bash
+docker build -t sds301-r .
+docker run -v $(pwd)/results:/app/results sds301-r
+```
+
+### Будущие сервисы
+
+Проект подготовлен для расширения:
+- **Python сервис**: `docker-compose --profile python up python-service`
+- **Next.js приложение**: `docker-compose --profile web up nextjs-app`
 
 ## Авторы
 
