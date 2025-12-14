@@ -1,7 +1,5 @@
 # SDS 301: Airbnb Pricing Regression Analysis
 
-Проект по регрессионному анализу цен на жилье Airbnb в Амстердаме.
-
 ## Структура проекта
 
 ```
@@ -51,11 +49,18 @@ source("airbnb_regression_analysis.R")
 ```
 
 ## Авторы
+# Yerkezhan Burambay 
+# Zhanahmetov Ansar
+# Ruslan Kudaibergenov
+# Alibek Aitbekov
 
+<<<<<<< HEAD
 - **Yerkezhan Burambay**
 - **Zhanahmetov Ansar**
 - **Ruslan Kudaibergenov**
 - **Alibek Aitbekov**
 
 SDS 301 Modern Regression Analysis - Final Project
+=======
+>>>>>>> c14e237a0486b3a1f623261016a7005074650918
 
