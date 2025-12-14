@@ -1,0 +1,34 @@
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj
+*.Rproj.user
+*.Rhistory
+*.Rapp.history
+
+# Временные файлы
+*.pdf
+*.png.bak
+*.csv.bak
+
+# Данные (если большие)
+# data/*.csv
+# data/*.geojson
+
+# Результаты моделей (опционально - можно закоммитить)
+# results/models.RData
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
