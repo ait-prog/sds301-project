@@ -1,7 +1,5 @@
 # SDS 301: Airbnb Pricing Regression Analysis
 
-Проект по регрессионному анализу цен на жилье Airbnb в Амстердаме.
-
 ## Структура проекта
 
 ```
