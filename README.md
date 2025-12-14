@@ -49,6 +49,9 @@ source("airbnb_regression_analysis.R")
 ```
 
 ## Авторы
+Yerkezhan Burambay 
+Zhanahmetov Ansar
+Ruslan Kudaibergenov
+Alibek Aitbekov
 
-SDS 301 Modern Regression Analysis - Final Project
 
