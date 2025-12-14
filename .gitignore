@@ -13,8 +13,8 @@
 *.png.bak
 *.csv.bak
 
-# Большие файлы данных
-data/reviews_gz.csv
+# Большие файлы данных (теперь через Git LFS)
+# data/reviews_gz.csv - теперь через LFS
 data/listings_gz.csv
 models.RData
 
