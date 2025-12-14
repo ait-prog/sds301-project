@@ -49,9 +49,9 @@ source("airbnb_regression_analysis.R")
 ```
 
 ## Авторы
-Yerkezhan Burambay 
-Zhanahmetov Ansar
-Ruslan Kudaibergenov
-Alibek Aitbekov
+# Yerkezhan Burambay 
+# Zhanahmetov Ansar
+# Ruslan Kudaibergenov
+# Alibek Aitbekov
 
 
