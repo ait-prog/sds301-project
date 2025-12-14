@@ -13,9 +13,10 @@
 *.png.bak
 *.csv.bak
 
-# Данные (если большие)
-# data/*.csv
-# data/*.geojson
+# Большие файлы данных
+data/reviews_gz.csv
+data/listings_gz.csv
+models.RData
 
 # Результаты моделей (опционально - можно закоммитить)
 # results/models.RData
