@@ -58,5 +58,3 @@ source("airbnb_regression_analysis.R")
 - **Alibek Aitbekov**
 
 SDS 301 Modern Regression Analysis - Final Project
-
-> **Примечание:** Чтобы ваш аватар отображался в разделе Contributors на GitHub, см. [HOW_TO_ADD_CONTRIBUTORS.md](HOW_TO_ADD_CONTRIBUTORS.md)
