@@ -1,8 +1,8 @@
 # SDS 301: Airbnb Pricing Regression Analysis
 
 
-https://insideairbnb.com/get-the-data/ -> data
-URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/gridExtra_2.3.zip' -> модули R
+* https://insideairbnb.com/get-the-data/ -> data
+* URL 'https://cran.rstudio.com/bin/windows/contrib/4.5/gridExtra_2.3.zip' -> модули R
 
 ## Структура проекта
 
