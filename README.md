@@ -7,7 +7,7 @@ https://insideairbnb.com/get-the-data/
 ## Project Structure
 
 ```
-├── data/                    # Source data
+├── data/                    # Source data   
 │   ├── listings_gz.csv     # Detailed listing information
 │   ├── listings.csv        # Brief listing information
 │   ├── reviews.csv         # Reviews
