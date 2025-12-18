@@ -85,7 +85,7 @@ docker build -t sds301-r .
 docker run -v $(pwd)/results:/app/results sds301-r
 ```
 
-### Future Services
+### Future  Services
 
 The project is prepared for expansion:
 - **Python service**: `docker-compose --profile python up python-service`
